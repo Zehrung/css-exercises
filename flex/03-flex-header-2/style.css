@@ -12,6 +12,29 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-part {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.right-part {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 8px;
+	gap: 16px;
+}
+
+.left-part > .links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 16px;
 }
 
 .profile-image {
@@ -27,6 +50,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 8px;
 }
 
 button {
